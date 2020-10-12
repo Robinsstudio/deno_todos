@@ -1,0 +1,38 @@
+.search-field {
+	display: flex;
+	align-items: center;
+	padding: .25rem;
+	background-color: rgb(255, 255, 255, .1);
+	border-radius: .25rem;
+}
+
+.search-field-input {
+	color: rgb(255, 255, 255, .25);
+}
+
+.todo-card {
+	width: 30rem;
+	margin: 5rem auto 5rem auto;
+}
+
+.todo-form {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	height: 15rem;
+}
+
+.todo-content {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.todo-delete {
+	align-self: flex-end;
+}
+
+.todo-title {
+	margin: 1rem 0 1rem 0;
+}
